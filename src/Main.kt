@@ -1,3 +1,5 @@
 fun main(args: Array<String>) {
-    println("Hello World")
+    val textString = "Today is very good a sunny day"
+    val wordDistance = WordDistance(textString)
+    println(wordDistance.findMaxAndMinWordSpacing("Today", "day"))
 }
